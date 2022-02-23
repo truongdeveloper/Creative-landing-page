@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root{
+    /* Color */
+    --primary-blue:#0a3e6d;
+    --primary-black: #0E0A23;
+    --primary-white: #ffff;
+
+
+    --secondary-yellow: #FFC200;
+    --secondary-skyble: #6ED3DC;
+
+
+    /* Font size */
+
+    --big-font-size: 48px;
+    --h--font-size: 15px;
+    --nomal-font-size: 12px;
+    --small-font-size: 10.5px;
+
+    /* Font weight */
+
+    --font-big: 700;
+    --font-medium: 500;
+    --font-small: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+input{
+    border: none;
+}
+header{
+    background-image: url(/assets/img/Header/Background-header.png);
+    background-size: cover;
+    background-repeat: none;
+}
+nav{
+    max-width: 1080px;
+    margin: 0 auto;
+    color: var(--primary-white);
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 32px;
+    align-items: center;
+}
+nav > img{
+    width: 104px;
+    height: 32px;
+}
+.list__menu{
+    display: inline-flex;
+    font-size: var(--nomal-font-size);
+    font-weight: var(--font-small);
+    gap: 0 16px;
+    opacity: .8;
+}
+.fas, .fas-search{
+    font-size: var(--nomal-font-size);
+    margin-right: 8px;
+}
+.seach{
+    font-size: var(--nomal-font-size);
+    opacity: .8;
+    margin-right: 28px;
+}
+.seach__menu{
+}
+
+button{
+    font-size: var(--nomal-font-size);
+    border: none;
+    font-weight: bold;
+    border-radius: 100rem;
+}
+.catalog{
+    background-color: white;
+    color: var(--secondary-yellow);
+    padding: 14px 24px;
+}
+.header__main{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 32px;
+
+}
+.header__img{
+    width: 357px;
+    padding-right: -8px;
+}
+.button__contact{
+    color: white;
+    font-weight: var(--nomal-font-size);
+    background: #406383;
+    width: 180px;
+    height: 28.5px;
+}
+.header__contact1{
+    width: 12px;
+    height: 12px;
+}
+.header__title{
+    margin: 28px 0 48px 0;
+    line-height: 66px;
+    color: white;
+}
+.input{
+    display: inline-block;
+    background-color: white;
+}
+.header__titleh1{
+    font-size: var(--big-font-size);
+}
+.header__content{  
+}
+.header__input > p{
+    color: white;
+    opacity: 0.7;
+    line-height: 150%;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 500px;
+    border-radius: 9px;
+    margin-top: 16px;
+}
+.input__text{
+    margin: 8px 9px 8px 32px;
+    font-size: var(--h--font-size);
+    
+}
+.input > button{ 
+    font-size: var(--nomal-font-size);
+    padding: 15px 25px;
+    border-radius: 9px;
+    background-color: var(--secondary-yellow);
+    color: white;
+}
+#baner__brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F6F9;
+    height: 148px;
+    padding: 62px;
+    margin: 0 auto;
+}
+#baner__brand > img{
+    width: 96px;
+    filter: grayscale(100%);
+}
+
+/* ===============MAIN============= */
+
+/* =====WORK CONTENT====== */
+.work__container{
+    max-width: 1080px;
+    margin: 86px auto;
+}
+.work__title{
+    font-size: var(--big-font-size);
+    letter-spacing: 0.2px;
+    font-weight: var(--font-big);
+    text-align: center;
+}
+.blue__title{
+    color: var(--secondary-skyble);
+}
+.work__box{
+    width: 276px;
+    height: 324px;
+    border: #CFD7E0 solid 1px;
+    border-radius: 9px;
+    padding: 32px 40px 28px 24px;
+}
+.box__bgr{
+    position: relative;
+    width: 68px;
+    height: 68px;
+    background-color: var(--primary-blue);
+    opacity: 0.2;
+    border-radius: 10.5px;
+}
+.box__img{
+    position: absolute;
+    top: 22px;
+    left: 22px; 
+    width: 24px;
+}
+.box__title{
+    font-size: 18px;
+    font-weight: var(--font-big);
+    line-height: 28px;
+    text-align: left;
+}
+.box__subtitle{
+    color: black;
+    letter-spacing: 0.2px;
+    font-size: var(--nomal-font-size);
+    line-height: 22px;
+    opacity: .6;
+}
