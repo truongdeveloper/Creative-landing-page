@@ -259,23 +259,25 @@ button{
 }
 .about-us__main{
     max-width: 1080px;
-    margin: 86px auto;
+    margin: 0 auto;
     padding: 86px 100px;
 }
 .ab__title{
     font-size: var(--font-medium);
     opacity: .4;
     font-weight: 500;
+    margin-bottom: 14px;
 }
 .ab__title-contentblue,
 .ab__title-content{
     font-size: var(--big-font-size);
     letter-spacing: 0.2px;
     font-weight: var(--font-big);
-    line-height: 68px;
+    line-height: 140%px;
 }
 .ab__title-contentblue{
     color: var(--secondary-skyble);
+    margin-bottom: 18px;
 }
 .about-us__img{
     position: relative;
@@ -292,6 +294,7 @@ button{
 .about-us__container{
     display: flex;
     justify-content: center;
+    
 }
 .ab__content1{
     font-size: var(--nomal-font-size);
@@ -305,6 +308,44 @@ button{
 }
 .ab__button{
     margin-left: 75px;
+}
+/* ========SERVICES======= */
+.sevices{
+    background-image: url(/assets/img/Servi/background-main.png);
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+}
+.sevices__box{
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.sv__content{
+}
+.services__box-img{
+    width: 75px;
+}
+.sv__box-title{
+    margin-top: 12px;
+    color: var(--secondary-skyble); 
+}
+.sv__content2{
+    width: 50%;
+    color: white;
+}
+.services__title-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sv__box-subtitle{
+    color: white;
+    margin-right: -16px;
+}
+.box__table{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
