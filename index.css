@@ -44,7 +44,7 @@ input{
     border: none;
 }
 header{
-    background-image: url(/assets/img/Header/Background-header.png);
+    background-image: url(assets/img/Header/Background-header.png);
     background-size: cover;
     background-repeat: none;
 }
@@ -311,7 +311,7 @@ button{
 }
 /* ========SERVICES======= */
 .sevices{
-    background-image: url(/assets/img/Servi/background-main.png);
+    background-image: url(assets/img/Servi/background-main.png);
     background-size: cover;
     background-repeat: none;
     color: white;
@@ -400,7 +400,7 @@ button{
 }
 /* =========FOOTER======= */
 footer{
-    background-image: url(/assets/img/Footer/background-footer.png);
+    background-image: url(assets/img/Footer/background-footer.png);
     /* overflow: auto; 
     Dùng để sử dụng Float ko bị tràn Background*/
 }
