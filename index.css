@@ -393,7 +393,7 @@ button{
     padding: 56px 32px;
 }
 .banner__footer-btn{
-    padding: 16px 36px;
+    padding: 18px 36px;
 }
 .banner__footer-subtitle{
     font-size: 15px;
@@ -402,5 +402,56 @@ button{
 footer{
     background-image: url(/assets/img/Footer/background-footer.png);
 }
-
+.line{
+    height: 1px;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.2;
+    padding: 0 32px;
+}
+.brand__footer{
+    margin-left: 26px;
+}
+.footer__content{
+    padding: 26px 32px;
+    display: flex;
+    color: white;
+}
+.footer__content1{
+    width: 40%;
+    line-height: 22px;
+    font-size:var(--nomal-font-size);
+}
+.footer__content1 > p{
+    opacity: .8;
+}
+.policy{
+    display: inline-flex;
+    gap: 0 40px;
+    margin-top: 56px;
+}
+.footer__content2{
+    display: inline-flex;
+    font-size:var(--nomal-font-size);
+    width: 40%;
+    justify-content: space-around;
+}
+.abus > li{
+    line-height: 160%;
+    margin-top: 12px;
+}
+.footer__content3{
+    padding: 0 32px 56px;
+    display: flex;
+    gap: 0 100px;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.img__footer1{
+    width: 232px;
+}
+.img__footer{
+    width: 200px;
+}
 
