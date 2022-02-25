@@ -401,6 +401,8 @@ button{
 /* =========FOOTER======= */
 footer{
     background-image: url(/assets/img/Footer/background-footer.png);
+    /* overflow: auto; 
+    Dùng để sử dụng Float ko bị tràn Background*/
 }
 .line{
     height: 1px;
@@ -444,7 +446,7 @@ footer{
 .footer__content3{
     padding: 0 32px 56px;
     display: flex;
-    gap: 0 100px;
+    gap: 0 200px;
     justify-content: flex-start;
     align-items:flex-start;
 }
