@@ -101,7 +101,7 @@ button{
 
 }
 .header__img{
-    width: 357px;
+    width: 40%;
     padding-right: -8px;
 }
 .button__contact{
@@ -248,7 +248,7 @@ button{
     width: 15px;
 }
 .box__container{
-    margin: 32px 56px 86px 32px;
+    margin: 32px 32px 86px 32px;
     display: flex;
     justify-content: space-around;
 }
@@ -347,6 +347,60 @@ button{
     display: flex;
     justify-content: space-between;
 }
-
+/* =========ACTIVITY BLOG======== */
+.blog__container{
+    margin-bottom: 48px;
+}
+.blog__box{
+    width: 48%;
+}
+.blog__box{
+    padding: 8px;
+}
+.blog-box__img{
+    width: 100%;
+}
+.blog__time{
+    padding-top: 20px;
+    color: black;
+    letter-spacing: 0.2px;
+    font-size: var(--nomal-font-size);
+    line-height: 22px;
+    opacity: .4;
+}
+.blog__title{
+    margin-top: 16px;
+}
+.blog__box-content{
+    padding: 16px 30px;
+}
+.blog__button-box{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.blog__button{
+    position: relative;
+    left: 50%;
+    top: -30px;
+    margin: 0 0 0 -68px;
+    padding: 16px 36px;
+}
+/* ========HEADER FOOTER======= */
+.banner__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 32px;
+}
+.banner__footer-btn{
+    padding: 16px 36px;
+}
+.banner__footer-subtitle{
+    font-size: 15px;
+}
+/* =========FOOTER======= */
+footer{
+    background-image: url(/assets/img/Footer/background-footer.png);
+}
 
 
