@@ -44,9 +44,15 @@ input{
     border: none;
 }
 header{
-    background-image: url(assets/img/Header/Background-header.png);
+    background-image: url(assets/img/Servi/background-main.png);
     background-size: cover;
-    background-repeat: none;
+    background-repeat:no-repeat;
+    /* background-size:100%; */
+}
+.backgroud__header{
+    max-width: 1080px;
+    margin: 0 auto;
+    /* padding: 86px 32px; */
 }
 nav{
     max-width: 1080px;
@@ -186,7 +192,8 @@ button{
     color: var(--secondary-skyble);
 }
 .work__box{
-    width: calc(20% + 100px);
+    width: calc(20% + 90px);
+    margin: 10px;
     /* height: 324px; */
     border: #CFD7E0 solid 1px;
     box-shadow: 0 1px 5px rgba(100, 100, 100, 0.3);
@@ -353,7 +360,7 @@ button{
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /* =========ACTIVITY BLOG======== */
 .blog__container{
@@ -361,7 +368,7 @@ button{
 }
 .blog__box{
     width: calc(35% + 100px);
-    margin: 10px;
+    /* margin: 10px; */
 }
 .blog__box{
     padding: 8px;
