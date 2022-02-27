@@ -186,7 +186,7 @@ button{
     color: var(--secondary-skyble);
 }
 .work__box{
-    width: 30%;
+    width: calc(20% + 100px);
     /* height: 324px; */
     border: #CFD7E0 solid 1px;
     box-shadow: 0 1px 5px rgba(100, 100, 100, 0.3);
@@ -251,6 +251,7 @@ button{
     margin: 32px 32px 86px 32px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 /* ===========ABOUT US=========== */
 
@@ -342,9 +343,16 @@ button{
     color: white;
     margin-right: -16px;
 }
-.box__table{
+.sevices__box{
+    /* width: 278px; */
     margin-top: 40px;
+    margin-left: 10px;
+}
+.box__table{
+
     display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 /* =========ACTIVITY BLOG======== */
@@ -352,7 +360,8 @@ button{
     margin-bottom: 48px;
 }
 .blog__box{
-    width: 48%;
+    width: calc(35% + 100px);
+    margin: 10px;
 }
 .blog__box{
     padding: 8px;
@@ -401,6 +410,8 @@ button{
 /* =========FOOTER======= */
 footer{
     background-image: url(assets/img/Footer/background-footer.png);
+    background-size: cover;
+    background-repeat: none;
     /* overflow: auto; 
     Dùng để sử dụng Float ko bị tràn Background*/
 }
@@ -456,4 +467,5 @@ footer{
 .img__footer{
     width: 200px;
 }
+/* ================ RESPONSIVE=========== */
 
