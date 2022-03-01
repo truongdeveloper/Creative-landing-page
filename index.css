@@ -539,6 +539,13 @@ footer{
     .box__container{
         margin: 32px 0 56px 0;
     }
+    .input{
+        height: 56px;
+    }
+    .input > .input__text-button{
+        padding: 4px 8px;
+        margin: 6px 8px 6px 0;
+    }
     .seach__menu{
         display: none;
     }
