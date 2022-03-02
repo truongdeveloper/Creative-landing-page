@@ -32,9 +32,10 @@
 }
 body{
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 a{
-    color: black;
+    color:white;
     text-decoration: none;
 }
 li{
@@ -182,7 +183,8 @@ button{
 /* =====WORK CONTENT====== */
 .work__container{
     max-width: 1080px;
-    margin: 86px auto;
+    margin: 0 auto;
+    padding-top: 86px;
 }
 .work__title{
     font-size: var(--big-font-size);
@@ -577,7 +579,7 @@ footer{
         width: calc(70% + 90px);
     }
     .about-us__main{
-       padding: 56px 32px;
+       padding: 56px 56px;
     }
     .about-us__container{
         flex-direction: column;
