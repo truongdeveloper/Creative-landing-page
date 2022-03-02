@@ -30,9 +30,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
 }
 a{
     color:white;
