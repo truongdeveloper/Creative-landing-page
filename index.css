@@ -72,6 +72,12 @@ nav > img{
     width: 104px;
     height: 32px;
 }
+#check, .checkbtn{
+    display: none;
+}
+.checkbtn > img{
+    width: 25px;
+}
 .list__menu{
     display: inline-flex;
     font-size: var(--nomal-font-size);
@@ -492,6 +498,9 @@ footer{
     :root{
         --big-font-size: 40px;
     }
+    /* .checkbtn{
+        display: block;
+    } */
     .input{
         width: 90%;
     }
@@ -549,6 +558,49 @@ footer{
 @media only screen and (max-width: 600px ){
     :root{
         --big-font-size: 32px;
+    }
+    nav{
+        /* flex-direction: column; */
+        align-items: flex-start;
+        margin: 0 0 40px 0px;
+        padding-top: 32px;
+    }
+    nav > img{
+        float: left;
+
+    }
+    .checkbtn{
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+    .list__menu{
+        display: block;
+        margin-top: 60px;
+        padding-top: 20px;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        right: -100%;
+        text-align: center;
+        background-color: var(--primary-blue);
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.5s;
+    }
+    .list__menu > li{
+        padding: 20px;
+        font-size: var(--h--font-size);
+        font-weight: var(--font-medium);
+    }
+    .list__menu a{
+        color: #81c2ff;
+    }
+    .list__menu a:hover{
+        color: var(--primary-white);
+    }
+    #check:checked ~ .list__menu{
+        right: 0;
     }
     .box__container{
         margin: 32px 0 56px 0;
@@ -630,12 +682,6 @@ footer{
     }
     .footer__brand{
         display:inherit;
-    }
-    nav{
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 0 0 40px 0px;
-        padding-top: 32px;
     }
     .brand__footer{
         width: 10%;
