@@ -497,6 +497,7 @@ footer{
 @media only screen and (max-width: 820px ){
     :root{
         --big-font-size: 40px;
+        
     }
     /* .checkbtn{
         display: block;
@@ -558,9 +559,11 @@ footer{
 @media only screen and (max-width: 600px ){
     :root{
         --big-font-size: 32px;
+        /* --h--font-size: 8px; */
     }
     nav{
         /* flex-direction: column; */
+        /* position: absolute; */
         align-items: flex-start;
         margin: 0 0 40px 0px;
         padding-top: 32px;
@@ -608,7 +611,12 @@ footer{
     .input{
         height: 56px;
     }
+    .input__text-form{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
     .input > .input__text-button{
+        font-size: 10px;
         padding: 4px 8px;
         margin: 6px 8px 6px 0;
     }
@@ -630,7 +638,7 @@ footer{
         margin: 56px 32px;
     }
     .work__box{
-        width: calc(70% + 90px);
+        width: calc(75% + 50px)
     }
     .about-us__main{
        padding: 56px 56px;
@@ -662,6 +670,7 @@ footer{
     }
     .box__gird{
         grid-template-columns: auto;
+        justify-items: center;
     }
     .banner__footer{
         flex-direction: column;
@@ -700,6 +709,7 @@ footer{
     }
     .footer__content2{
         gap: 15px;
+        width: 50%;
     }
     .img__footer,
     .img__footer1{
