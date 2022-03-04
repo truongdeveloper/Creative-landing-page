@@ -78,6 +78,9 @@ nav > img{
 .checkbtn > img{
     width: 25px;
 }
+.nav__overlay{
+    display: none;
+}
 .list__menu{
     display: inline-flex;
     font-size: var(--nomal-font-size);
@@ -572,26 +575,40 @@ footer{
         float: left;
 
     }
+    /* #check{
+        display: block;
+    } */
     .checkbtn{
         display: block;
         float: right;
         cursor: pointer;
     }
+    .nav__overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        z-index: 2;
+        opacity: 0.3;
+        transition: all 0.5s;
+    }
     .list__menu{
         display: block;
-        margin-top: 60px;
+        margin-top: -32px;
         padding-top: 20px;
         position: fixed;
-        width: 100%;
+        width: 40%;
         height: 100vh;
         right: -100%;
         text-align: center;
         background-color: var(--primary-blue);
         opacity: 1;
-        z-index: 1;
+        z-index: 2;
         transition: all 0.5s;
     }
-    .list__menu > li{
+    .list__menu  li{
         padding: 20px;
         font-size: var(--h--font-size);
         font-weight: var(--font-medium);
@@ -604,6 +621,9 @@ footer{
     }
     #check:checked ~ .list__menu{
         right: 0;
+    }
+    #check:checked ~ .nav__overlay{
+        display: block;
     }
     .box__container{
         margin: 32px 0 56px 0;
